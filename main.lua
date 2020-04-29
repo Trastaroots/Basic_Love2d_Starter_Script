@@ -11,6 +11,7 @@ if arg[#arg] == "-debug" then require("mobdebug").start() end
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 require("GuideLines")
 require("DebugPanel")
+require("Colors")
 
 sOriginX = nil
 sOriginY = nil
