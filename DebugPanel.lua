@@ -10,7 +10,7 @@
       love.graphics.print("Current Time: "..tostring(currentTime),5,20)
       love.graphics.print("Resolution: "..tostring(screenWidth)..(" X ")..tostring(screenHeight)..(" px"),5,35)
       local stats = love.graphics.getStats()
-      local str = string.format("Texture memory used: %.2f MB", stats.texturememory/1024/1024)
+      local str = string.format("Texture memory used: %.2f MB",stats.texturememory/1024/1024)
       love.graphics.print(str,5,50)
       love.graphics.print("--------------------------------------------------",5,65)
       love.graphics.print("MouseX: "..tostring(mouseX),5,80)
