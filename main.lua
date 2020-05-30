@@ -47,6 +47,7 @@ function love.update(dt)
   
   currentFps = love.timer.getFPS()
   currentTime = GetTime()
+  UpdateDtTimer()
   
 end
 
